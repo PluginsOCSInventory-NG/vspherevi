@@ -1,0 +1,3 @@
+73000 Inventaire VSphere
+73001 Liste des VMs
+73002 Liste des hôtes

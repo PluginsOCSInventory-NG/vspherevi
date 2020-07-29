@@ -1,0 +1,13 @@
+  
+{
+    "displayName" : "Vsphere Inventory",
+    "author" : ["Gilles DUBOIS"],
+    "contributor" : ["Robert Kenney"],
+    "supportedAgent" : ["Windows"],
+    "version" : "1.0",
+    "licence" : "GPLv2",
+    "description" : {
+      "fr" : "Récupère les infos des hosts et VM VSphere en utilisant les outils VMWare powershell",
+      "en" : "Retrieve VM and Hosts Vpshere VI Infos using the powershell tools"
+    }
+  }

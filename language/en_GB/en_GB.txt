@@ -1,0 +1,28 @@
+73000 VSphere Inventory
+73001 VM List
+73002 Host List
+73003 Power state
+73004 Connection state
+73005 Is standalone
+73006 CPU Usage
+73007 Host
+73008 Folder
+73009 Res pool
+73010 HA Priority
+73011 HA Isolation
+73012 Vapp
+73013 DRS
+73014 Res config
+73015 HW version
+73016 Datastore
+73017 Total space
+73018 Used space
+73019 License
+73020 Memory (GB)
+73021 Memory Usage
+73022 Cpu HT
+73023 Timezone
+73024 Build
+73025 Parent
+73026 EVC
+73027 Firewall policy
