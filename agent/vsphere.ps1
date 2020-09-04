@@ -37,11 +37,19 @@ Get-VMHost | ForEach-Object {
 
 #Collect VM available
 Get-VM | ForEach-Object {
+
+    $vmguest = $_.Guest
+    if($vmguest.Contains(":")){
+        $guest =  $vmguest
+        $splittedGuest = $guest.Split(":")
+        $vmguest = $splittedGuest[1]
+    }
+
     $xml += "<VSPHEREVMS>"
     $xml += "<VMID>" + $_.Id + "</VMID>"
     $xml += "<VMNAME>" + $_.Name + "</VMNAME>"
     $xml += "<VMPOWSTATE>" + $_.PowerState + "</VMPOWSTATE>"
-    $xml += "<VMGUEST>" + $_.Guest + "</VMGUEST>"
+    $xml += "<VMGUEST>" + $vmguest + "</VMGUEST>"
     $xml += "<VMCPUNUM>" + $_.NumCpu + "</VMCPUNUM>"
     $xml += "<VMCPUCORES>" + $_.CoresPerSocket + "</VMCPUCORES>"
     $xml += "<VMMEMORY>" + $_.MemoryMB + "</VMMEMORY>"
