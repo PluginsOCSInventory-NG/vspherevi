@@ -30,7 +30,7 @@ $def_onglets['VM'] = $l->g(73001);
 $def_onglets['HOST'] = $l->g(73002); 
 
 //default => first onglet
-if ($protectedPost['onglet'] == "") {
+if (empty($protectedPost['onglet'])) {
   $protectedPost['onglet'] = "VM";
 }
 
