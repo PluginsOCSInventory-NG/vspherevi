@@ -1,3 +1,28 @@
 73000 Inventaire VSphere
 73001 Liste des VMs
 73002 Liste des hôtes
+73003 Etat alimentation
+73004 Etat connexion
+73005 est autonome
+73006 Utilisation processeurs
+73007 Hote
+73008 Répertoire
+73009 Res pool
+73010 HA Priorité
+73011 HA Isolation
+73012 Vapp
+73013 DRS
+73014 Res config
+73015 HW version
+73016 Datastore
+73017 Espace total
+73018 Espace utilisé
+73019 License
+73020 mémoire (GB)
+73021 Utilisation de mémoire
+73022 Processeur HT
+73023 Timezone
+73024 Build
+73025 Parent
+73026 EVC
+73027 politique de Pare-Feu
