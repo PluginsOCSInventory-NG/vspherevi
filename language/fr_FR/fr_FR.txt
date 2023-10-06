@@ -3,16 +3,16 @@
 73002 Liste des hôtes
 73003 Etat alimentation
 73004 Etat connexion
-73005 est autonome
+73005 Est autonome
 73006 Utilisation processeurs
 73007 Hote
 73008 Répertoire
-73009 Res pool
+73009 Ressource pool
 73010 HA Priorité
 73011 HA Isolation
 73012 Vapp
 73013 DRS
-73014 Res config
+73014 Ressource config
 73015 HW version
 73016 Datastore
 73017 Espace total
