@@ -18,11 +18,11 @@
 73017 Espace total
 73018 Espace utilisé
 73019 License
-73020 mémoire (GB)
+73020 Mémoire (GB)
 73021 Utilisation de mémoire
 73022 Processeur HT
-73023 Timezone
+73023 Fuseau horaire
 73024 Build
 73025 Parent
 73026 EVC
-73027 politique de Pare-Feu
+73027 Politique de Pare-Feu
