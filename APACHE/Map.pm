@@ -62,6 +62,7 @@ $DATA_MAP{vspherevms} = {
 	fields => {
         VMID => {},
 		VMNAME => {},
+		VMNOTES => {},
         VMPOWSTATE => {},
         VMGUEST => {},
         VMCPUNUM => {},
