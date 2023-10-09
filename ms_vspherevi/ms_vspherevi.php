@@ -52,6 +52,7 @@ if($protectedPost['onglet'] == "VM"){
   $list_fields = array(
     $l->g(296) => 'VMID',
     $l->g(49) => 'VMNAME',
+    $l->g(73028) => 'VMNOTES',
     $l->g(73003) => 'VMPOWSTATE',
     $l->g(25) => 'VMGUEST',
     $l->g(351) => 'VMCPUNUM',

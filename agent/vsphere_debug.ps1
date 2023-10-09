@@ -76,6 +76,7 @@ function Get-OCSVsphereXML {
             $Script:xml += "<VSPHEREVMS>"
             $Script:xml += "<VMID>" + $_.Id + "</VMID>"
             $Script:xml += "<VMNAME>" + $_.Name + "</VMNAME>"
+            $Script:xml += "<VMNOTES>" + $_.Notes + "</VMNOTES>"
             $Script:xml += "<VMPOWSTATE>" + $_.PowerState + "</VMPOWSTATE>"
             $Script:xml += "<VMGUEST>" + $vmguest + "</VMGUEST>"
             $Script:xml += "<VMCPUNUM>" + $_.NumCpu + "</VMCPUNUM>"
